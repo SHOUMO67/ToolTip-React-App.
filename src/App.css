@@ -1,0 +1,62 @@
+/* css for body */
+body{
+  background-color: #f3edf9c7;
+}
+
+/* css for app component */
+.App {
+  text-align: center;
+  margin-top: 25px;
+  
+}
+
+/* css for button in button component */
+.button{
+  cursor: pointer;
+  background-color: #fbd341;
+  background-image: linear-gradient(45deg, #fbd341 0%, #FF5ACD 100%);
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 16px;
+  border: 0px;
+  transition: backgrond .7s;
+
+}
+.button:hover{
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  
+  color: white;
+  
+}
+
+/* css for h2 heading */
+h1{
+  color: rgb(198, 1, 242);
+  font-size: 4.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+/* css for form div */
+.form-div{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 60%;
+  margin-left: 16%;
+  padding: 5px;
+}
+
+/* css for form label */
+.form-div label{
+  width: 300px;
+  text-align: left;
+  font-weight: 600;
+  color: rgb(189, 7, 250);
+  font-family: 'Times New Roman', Times, serif;
+
+}
